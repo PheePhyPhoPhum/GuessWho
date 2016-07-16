@@ -1,0 +1,27 @@
+Setup
+
+Player randomly selects a face card.
+Computer is given a shuffled # x # (example: 6 x 4) grid of possible face cards.
+  One of the cards in the computer's grid must match the player's card.
+
+Game Play
+
+While( > 1 possible card)
+{
+  Computer selects a facial feature or clothing item from a set of possible attributes
+  Player submits a positive or negative response as to the attribute's presence on the player's chosen card
+  If
+   Player submits positive response
+      Computer searches for (algorithm?) all cards on the grid that correspond
+      Computer notes all cards that do not exhibit this attribute and eliminates them as possibilities (algorithm?)
+  Else
+    Computer searches for (algorithm?) all cards on the grid that correspond
+    Computer notes all cards that exhibit this attribute and eliminates them as possibilities (algorithm?)
+}
+
+Winning
+
+When computer is left with one card, it asks user to verify that it chose the correct card.
+Player verifies or denies whether or not the copmuter is correct.
+If the computer is correct, the computer wins.
+If the computer is not correct, back to the drawing board for us.
