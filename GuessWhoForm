@@ -1,0 +1,115 @@
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class Form1
+    Inherits System.Windows.Forms.Form
+
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        'Dim ListViewItem1 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Brown")
+        'Dim ListViewItem2 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Blonde")
+        'Dim ListViewItem3 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Red")
+        'Dim ListViewItem4 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Gray")
+        'Dim ListViewItem5 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Black")
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.ListView1 = New System.Windows.Forms.ListView()
+        Me.Name = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.Glasses = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.HairColor = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.Gender = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ShirtColor = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.Hat = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.Pet = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.SuspendLayout()
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(12, 9)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(228, 17)
+        Me.Label1.TabIndex = 0
+        Me.Label1.Text = "Can you guess who? It's a mystery!"
+        '
+        'ListView1
+        '
+        Me.ListView1.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.Name, Me.Glasses, Me.HairColor, Me.Gender, Me.ShirtColor, Me.Hat, Me.Pet})
+        'Me.ListView1.Items.AddRange(New System.Windows.Forms.ListViewItem() {ListViewItem1, ListViewItem2, ListViewItem3, ListViewItem4, ListViewItem5})
+        Me.ListView1.Location = New System.Drawing.Point(12, 29)
+        Me.ListView1.Name = "ListView1"
+        Me.ListView1.Size = New System.Drawing.Size(1042, 217)
+        Me.ListView1.TabIndex = 1
+        Me.ListView1.UseCompatibleStateImageBehavior = False
+        Me.ListView1.View = System.Windows.Forms.View.Details
+        Me.ListView1.Items.Add(New ListViewItem({"Maritza", "No", "Brown", "Female", "Black", "No", "Cat"}))
+        Me.ListView1.Items.Add(New ListViewItem({"Sophia", "No", "Black", "Female", "Red", "No", "No"}))
+        '
+        'Name
+        '
+        Me.Name.Text = "Name"
+        '
+        'Glasses
+        '
+        Me.Glasses.Text = "Glasses"
+        Me.Glasses.Width = 83
+        '
+        'HairColor
+        '
+        Me.HairColor.Text = "Hair Color"
+        '
+        'Gender
+        '
+        Me.Gender.Text = "Gender"
+        '
+        'ShirtColor
+        '
+        Me.ShirtColor.Text = "Shirt Color"
+        '
+        'Hat
+        '
+        Me.Hat.Text = "Hat"
+        '
+        'Pet
+        '
+        Me.Pet.Text = "Pet"
+        '
+        'Form1
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.ClientSize = New System.Drawing.Size(1088, 491)
+        Me.Controls.Add(Me.ListView1)
+        Me.Controls.Add(Me.Label1)
+        Me.Name.Text = "Name"
+        Me.Text = "Guess Who"
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
+    End Sub
+    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents ListView1 As System.Windows.Forms.ListView
+    Friend WithEvents Name As System.Windows.Forms.ColumnHeader
+    Friend WithEvents Glasses As System.Windows.Forms.ColumnHeader
+    Friend WithEvents HairColor As System.Windows.Forms.ColumnHeader
+    Friend WithEvents Gender As System.Windows.Forms.ColumnHeader
+    Friend WithEvents ShirtColor As System.Windows.Forms.ColumnHeader
+    Friend WithEvents Hat As System.Windows.Forms.ColumnHeader
+    Friend WithEvents Pet As System.Windows.Forms.ColumnHeader
+
+End Class
